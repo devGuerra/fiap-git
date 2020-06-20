@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="EXEMPLO -  BOOTSTRAP" />
+    <meta name="author" content="Jorginho" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark pl-4 pt-3">
+          <a class="text-light" href="/dashboard.html">Home</a>
+        </div>
+        <div class="bg-dark pl-4 pt-3">
+          <a class="text-light" href="/alimento.html">Alimentos</a>
+        </div>
+        <div class="bg-dark pl-4 pt-3 pb-3">
+          <a href="/peso.html" class="text-light">Peso</a>
+        </div>
+        <div class="bg-dark pl-4 pt-3 pb-3">
+          <a href="/index.html" class="text-light">Sair</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark hidden">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1 class="h4 font-weight-normal text-light">Peso</h1>
+      </nav>
+    </div>
+    <!-- content -->
+    <div class="container col-md-2 mx-auto">
+      <form class="text-center">
+        <h1 class="h3 mb-5 mt-5 font-weight-normal">Cadastrar Novo Alimento</h1>
+        <div class="form-group">
+          <label for="formGroupExampleInput">data</label>
+          <input
+            type="date"
+            class="form-control"
+            id="formPesoInput"
+            placeholder="ex: 68kg"
+          />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Alimento</label>
+          <input
+            type="text"
+            class="form-control"
+            id="formDateInput"
+            placeholder="ex: Arroz"
+          />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Quantidade</label>
+          <input
+            type="text"
+            class="form-control"
+            id="formDateInput"
+            placeholder="ex: 300gr"
+          />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">calorias</label>
+          <input
+            type="number"
+            class="form-control"
+            id="formDateInput"
+            placeholder="ex: 600  "
+          />
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <footer
+      class="bg-dark fixed-bottom d-flex flex-row justify-content-center p-2"
+    >
+      <a
+        class="h4 font-weight-normal text-light text-center mr-1 w-100"
+        href="alimento.html"
+        >Salvar</a
+      >
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

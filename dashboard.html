@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="EXEMPLO -  BOOTSTRAP" />
+    <meta name="author" content="Jorginho" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+  </head>
+
+  <body>
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark pl-4 pt-3">
+          <a class="text-light" href="/dashboard.html">Home</a>
+        </div>
+        <div class="bg-dark pl-4 pt-3">
+          <a class="text-light" href="/alimento.html">Alimentos</a>
+        </div>
+        <div class="bg-dark pl-4 pt-3 pb-3">
+          <a href="/peso.html" class="text-light">Peso</a>
+        </div>
+        <div class="bg-dark pl-4 pt-3 pb-3">
+          <a href="/index.html" class="text-light">Sair</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1 class="h4 font-weight-normal text-light">Home</h1>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="p-3 mb-2 bg-dark w-100 h-5 row br-4 rounded mx-auto mt-3">
+        <svg
+          class="bi bi-person-fill mb-3 rounded-circle bg-white p-1"
+          width="4em"
+          height="4em"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+          />
+        </svg>
+        <div class="col ml-3">
+          <p class="m-0 text-light">Nome: Roberto Guerra</p>
+          <p class="m-0 text-light">Idade: 25 anos</p>
+          <p class="m-0 text-light">Cidade: Osasco</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-between">
+        <div class="card text-white bg-dark mb-3 mr-1 w-100">
+          <a href="/peso.html" class="text-light">
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                Ultimo peso <br />
+                registrado
+              </h5>
+              <p class="mt-4 card-text text-center font-weight-bold">
+                70kg
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="card text-white bg-dark mb-3 ml-1 w-100">
+          <a href="/alimento.html" class="text-light">
+            <div class="card-body">
+              <h5 class="card-title text-center">Calorias <br />consumidas</h5>
+              <p class="mt-4 card-text text-center font-weight-bold">
+                1200
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="bg-dark col p-3 rounded">
+        <h4>Ultimo peso registrado</h4>
+        <p>70kg</p>
+      </div> -->
+    </div>
+    <footer
+      class="bg-dark fixed-bottom d-flex flex-row justify-content-center p-2"
+    >
+      <a
+        class="h4 font-weight-normal text-light text-center mr-1 w-100"
+        href="peso.html"
+        >Peso</a
+      >
+      <a
+        class="h4 font-weight-normal text-center text-light ml-1 w-100"
+        href="alimento.html"
+        >Alimentos</a
+      >
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
